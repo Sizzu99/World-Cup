@@ -1,0 +1,55 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Hind+Siliguri&family=Oxygen:wght@300&family=PT+Sans+Narrow&display=swap');
+/* Common styles */
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.banner-section{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(43, 40, 40);
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.banner-h1{
+    font-size: 40px;
+    width: 300px;
+    color: #ffff;
+    font-weight: 1000;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.banner-p{
+    width: 300px;
+    color: #ffff;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.banner-button{
+    width:140px;
+    height: 40px;
+    background-color: red;
+    margin-left: 100px;
+    padding-top: 15px;
+    padding-left: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.banner-button a{
+    color: white;
+    text-decoration: none;
+}
+.banner-pic{
+    position: relative;
+    margin-left: 600px;
+    display: flex;
+    width: 40%;
+    height: 200px;
+    float: left;
+}
