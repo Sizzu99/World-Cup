@@ -6,7 +6,7 @@ body{
 }
 .container{
     display: flex;
-    width: 50%;
+    width: 100%;
     margin-left: 130px
 
 }
@@ -52,11 +52,12 @@ body{
 }
 .menus{
     margin-top: 100px;
-    margin-left: 130px;
-    width: 250px;
-    height: 230px;
+    margin-left: 120px;
+    width: 230px;
+    height: 250px;
     background-color: rgb(32, 34, 33);
-    border-radius: 25px;
+    border-radius: 15px;
+    display: flex;
 }
 .menu{
     display: grid;
@@ -79,7 +80,10 @@ body{
 .live-games{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2px;
+    grid-gap: 10px;
+    margin-left: 10px;
+   
+    
 }
 #blog{
     background-color: red;
@@ -89,8 +93,10 @@ body{
     border-radius: 10px;
     width: 270px;
     height: 280px;
-   
-}
+    margin-left: 10px;
+    
+}  
+
 .game-blog-h3{
     padding-left: 10px;
     width: 270px;
@@ -120,4 +126,36 @@ body{
 }
 .fa-comment{
     padding-left: 30px;
+}
+
+footer{
+    background-color:rgb(46, 43, 43);
+    height: 380px;
+    text-align: center;
+    margin-top: 400px;
+}
+.footer-h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffff;
+    padding-top: 130px;
+}
+hr{
+    width: 80%;
+    color: gray;
+    margin-top: 50px;
+}
+.service a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 40px; 
+}
+.social-network a{
+    color: #ffff;
+    padding: 70px;
+
+}
+/* Media Query */
+@media only screen and( min-width:688) and(max-width:992px){
+    
 }
