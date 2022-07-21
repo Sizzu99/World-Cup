@@ -1,0 +1,167 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Hind+Siliguri&family=Oxygen:wght@300&family=PT+Sans+Narrow&display=swap');
+/* Common styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin-left: 130px
+
+}
+.banner-section{
+    width: 80%;
+    height: 550px;
+    background-color: rgb(43, 40, 40);
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.banner-h1{
+    font-size: 40px;
+    width: 300px;
+    color: #ffff;
+    font-weight: 1000;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.banner-p{
+    width: 300px;
+    color: #ffff;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.banner-button{
+    width:140px;
+    height: 40px;
+    background-color: red;
+    margin-left: 100px;
+    padding-top: 15px;
+    padding-left: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.banner-button a{
+    color: white;
+    text-decoration: none;
+}
+.banner-pic img{
+    /* padding-left:50px; */
+  
+}
+.menus{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 230px;
+    height: 250px;
+    background-color: rgb(32, 34, 33);
+    border-radius: 15px;
+    display: flex;
+}
+.menu{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.button{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(242, 238, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    color: rgb(19, 18, 18);
+}
+.live-games{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 10px;
+   
+    
+}
+#blog{
+    background-color: red;
+}
+.game-blog{
+    border: 1px solid wheat;
+    border-radius: 10px;
+    width: 270px;
+    height: 280px;
+    margin-left: 10px;
+    
+}  
+
+.game-blog-h3{
+    padding-left: 56px;
+    width: 270px;
+    font-size: 15px;
+    margin-top: 60px;
+}
+.game-img{
+    width: 30%;
+    padding-top: 50px;
+}
+.banner{
+    display: flex;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.banner-h3{
+
+}
+.game-button{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.game-comment{
+    margin-left: 50px;
+    color: gray;
+}
+.time{
+    padding-left:5px;
+}
+.comment{
+    padding-left: 5px;
+}
+.fa-comment{
+    padding-left: 30px;
+}
+
+footer{
+    background-color:rgb(46, 43, 43);
+    height: 380px;
+    text-align: center;
+    margin-top: 400px;
+}
+.footer-h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffff;
+    padding-top: 130px;
+}
+hr{
+    width: 80%;
+    color: gray;
+    margin-top: 50px;
+}
+.service a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 40px; 
+}
+.social-network a{
+    color: #ffff;
+    padding: 70px;
+
+}
